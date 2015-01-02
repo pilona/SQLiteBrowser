@@ -1,0 +1,40 @@
+Overview
+--------
+
+`sqlitebrowser.py` is meant to be a:
+
+- pretty (modern—Gtk 3, GObject introspection bindings, not PyGtk),
+- at least Linux-supporting
+- visually minimalistic (unlike most other Sqlite3 GUI designs)
+    - no panes
+    - no menus
+- single-file, pure Python
+
+SQLite 3 database viewer.
+
+Help
+----
+
+    $ ./sqlitebrowser.py --help
+    usage: sqlitebrowser.py [-h] [db]
+
+    positional arguments:
+      db
+
+    optional arguments:
+      -h, --help  show this help message and exit
+
+Key bindings
+------------
+
+quit
+: <Ctrl-q>
+
+reload
+: <Ctrl-r>
+
+iconify
+: <Ctrl-z>
+
+open
+: <Ctrl-o>
